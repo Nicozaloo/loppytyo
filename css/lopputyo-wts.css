@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: Roboto, Arial;
+    background: rgb(0,5,255);
+    background: linear-gradient(90deg, rgba(0,5,255,1) 0%, rgba(183,215,231,1) 49%, rgba(0,5,255,1) 100%);
+  
+  }
+  
+  .topnav {
+  
+    background-color: #CBD7DE;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #5b676b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Roboto, Arial;
+    font-size: 0.9em;
+    border: #FDD017;
+  
+  }
+  
+  .topnav a:hover {
+    background-color: #000080;
+    color: black;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #E4EBF2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    
+  
+  }
+  
+  h2 {
+    color: black;
+    margin: 0;
+  }
+  
+  .row {
+    border: none;
+  }
+  
+  .column1 {
+    float: left;
+    width: 22%;
+    color: black;
+    border: none;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/ruotsi.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -100px 100px -10px #000000;
+  }
+  .column2 {
+  
+    padding: 10px;
+    width: 78%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/visit-sweden-niclas_vestefjell.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .column3 {
+    float: left;
+    width: 78%;
+    color: black;
+    border: none;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/banner_kalasatama.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .column4 {
+  
+    padding: 10px;
+    width: 22%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/paavo-nurmi-7587.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -100px 100px -10px #000000;
+  }
+  
+  .column5 {
+    float: left;
+    width: 22%;
+    color: black;
+    border: none;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/tampereen-ravintolat-vaaka.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -100px 100px -10px #000000;
+  }
+  
+  .column6 {
+  
+    padding: 10px;
+    width: 78%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/desktop-bg-1920x728-ruokaloma-2.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .header {
+    
+    color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    
+    
+    
+  
+    
+  }
+  
+  .suomenlippu {
+    height: 100px;
+    width: 170px;
+    background-image: url(/kuvat/suomenlippu.jpg);
+    background-size: cover;
+  }
+  
+  .mooi {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(/kuvat/helsinki-skyline-1024x295.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .wrapper {
+  
+  }
+  
+  .titleButton {
+    font-size: 25px;
+    display: flex;
+    margin-top: 250px;
+    margin-left: 50px;
+    color: rgb(243, 245, 250);
+    font-weight: 200;
+    padding-right: 200px;
+  }
+
+  ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+  }
+  
+  @media (min-width: 500px) {
+    ul {
+      grid-auto-flow: column;
+    }
+  }
+  
+  .some {
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+  }
+  
+  .some:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+  }
+  
+  li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .footer {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: #000108;
+    line-height: 1.3;
+  }
